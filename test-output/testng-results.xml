@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68256" started-at="2020-08-27T01:51:33Z" finished-at="2020-08-27T01:52:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68256" started-at="2020-08-27T01:51:33Z" finished-at="2020-08-27T01:52:41Z">
+      <class name="TestCasesExecution.LoginPageTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="setupSuite" is-config="true" duration-ms="14981" started-at="2020-08-27T01:51:33Z" finished-at="2020-08-27T01:51:48Z">
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="LoginTestCase" duration-ms="1113" started-at="2020-08-27T01:51:48Z" data-provider="getLoginData" finished-at="2020-08-27T01:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rashmi]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- LoginTestCase -->
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="setupSuite" is-config="true" duration-ms="15006" started-at="2020-08-27T01:51:50Z" finished-at="2020-08-27T01:52:05Z">
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="LoginTestCase" duration-ms="5568" started-at="2020-08-27T01:52:05Z" data-provider="getLoginData" finished-at="2020-08-27T01:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr280923]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UzUzUpE]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- LoginTestCase -->
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="setupSuite" is-config="true" duration-ms="14568" started-at="2020-08-27T01:52:10Z" finished-at="2020-08-27T01:52:25Z">
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="LoginTestCase" duration-ms="820" started-at="2020-08-27T01:52:25Z" data-provider="getLoginData" finished-at="2020-08-27T01:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nepu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ritu]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- LoginTestCase -->
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="setupSuite" is-config="true" duration-ms="14574" started-at="2020-08-27T01:52:26Z" finished-at="2020-08-27T01:52:40Z">
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@3159c4b8]" name="LoginTestCase" duration-ms="1046" started-at="2020-08-27T01:52:40Z" data-provider="getLoginData" finished-at="2020-08-27T01:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhuri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anand]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- LoginTestCase -->
+      </class> <!-- TestCasesExecution.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
