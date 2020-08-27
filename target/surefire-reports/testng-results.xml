@@ -2,14 +2,14 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="65137" started-at="2020-08-27T00:53:18Z" finished-at="2020-08-27T00:54:23Z">
+  <suite name="Suite" duration-ms="69134" started-at="2020-08-27T12:15:46Z" finished-at="2020-08-27T12:16:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="65137" started-at="2020-08-27T00:53:18Z" finished-at="2020-08-27T00:54:23Z">
+    <test name="Test" duration-ms="69134" started-at="2020-08-27T12:15:46Z" finished-at="2020-08-27T12:16:55Z">
       <class name="TestCasesExecution.LoginPageTest">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="setupSuite" is-config="true" duration-ms="15334" started-at="2020-08-27T00:53:18Z" finished-at="2020-08-27T00:53:33Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="setupSuite" is-config="true" duration-ms="15211" started-at="2020-08-27T12:15:47Z" finished-at="2020-08-27T12:16:02Z">
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="LoginTestCase" duration-ms="982" started-at="2020-08-27T00:53:33Z" data-provider="getLoginData" finished-at="2020-08-27T00:53:34Z">
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="LoginTestCase" duration-ms="866" started-at="2020-08-27T12:16:02Z" data-provider="getLoginData" finished-at="2020-08-27T12:16:03Z">
           <params>
             <param index="0">
               <value>
@@ -23,9 +23,9 @@
             </param>
           </params>
         </test-method> <!-- LoginTestCase -->
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="setupSuite" is-config="true" duration-ms="14730" started-at="2020-08-27T00:53:34Z" finished-at="2020-08-27T00:53:49Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="setupSuite" is-config="true" duration-ms="14499" started-at="2020-08-27T12:16:03Z" finished-at="2020-08-27T12:16:17Z">
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="LoginTestCase" duration-ms="2336" started-at="2020-08-27T00:53:49Z" data-provider="getLoginData" finished-at="2020-08-27T00:53:51Z">
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="LoginTestCase" duration-ms="1819" started-at="2020-08-27T12:16:17Z" data-provider="getLoginData" finished-at="2020-08-27T12:16:19Z">
           <params>
             <param index="0">
               <value>
@@ -39,9 +39,9 @@
             </param>
           </params>
         </test-method> <!-- LoginTestCase -->
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="setupSuite" is-config="true" duration-ms="15000" started-at="2020-08-27T00:53:51Z" finished-at="2020-08-27T00:54:06Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="setupSuite" is-config="true" duration-ms="15036" started-at="2020-08-27T12:16:19Z" finished-at="2020-08-27T12:16:34Z">
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="LoginTestCase" duration-ms="807" started-at="2020-08-27T00:54:06Z" data-provider="getLoginData" finished-at="2020-08-27T00:54:07Z">
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="LoginTestCase" duration-ms="5189" started-at="2020-08-27T12:16:34Z" data-provider="getLoginData" finished-at="2020-08-27T12:16:39Z">
           <params>
             <param index="0">
               <value>
@@ -55,9 +55,9 @@
             </param>
           </params>
         </test-method> <!-- LoginTestCase -->
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="setupSuite" is-config="true" duration-ms="14632" started-at="2020-08-27T00:54:07Z" finished-at="2020-08-27T00:54:22Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="setupSuite" is-config="true" duration-ms="15008" started-at="2020-08-27T12:16:39Z" finished-at="2020-08-27T12:16:54Z">
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@337d0578]" name="LoginTestCase" duration-ms="892" started-at="2020-08-27T00:54:22Z" data-provider="getLoginData" finished-at="2020-08-27T00:54:23Z">
+        <test-method status="PASS" signature="LoginTestCase(java.lang.String, java.lang.String)[pri:0, instance:TestCasesExecution.LoginPageTest@cb5822]" name="LoginTestCase" duration-ms="1021" started-at="2020-08-27T12:16:54Z" data-provider="getLoginData" finished-at="2020-08-27T12:16:55Z">
           <params>
             <param index="0">
               <value>
