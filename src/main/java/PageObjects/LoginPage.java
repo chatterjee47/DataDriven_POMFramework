@@ -19,25 +19,34 @@ public class LoginPage {
 	private WebElement UserName;
 
 	public void setUserName(String strUserName) {
-		UserName.sendKeys(strUserName);
+		try {
+			UserName.sendKeys(strUserName);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			throw new AssertionError("UserName not entered", e);
+		}
 	}
 
 	@FindBy(xpath = "//input[@name='password']")
 	private WebElement Password;
 
 	public void setPassword(String strPassword) {
-		Password.sendKeys(strPassword);
-		
+		try {
+			Password.sendKeys(strPassword);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			throw new AssertionError("Password not entered", e);
+		}	
 	}
 	
 	@FindBy(xpath = "//input[@name='btnLogin']")
 	private WebElement LoginButton;
 
 	public void ClickOnLoginButton() {
-		LoginButton.click();
-		
+		try {
+			LoginButton.click();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}	
 	}
-
-	
-
 }

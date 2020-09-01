@@ -13,49 +13,38 @@ public class Listeners implements ITestListener{
 	static RemoteWebDriver driver;
 	
 	
-	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+	public void onTestStart(ITestResult result) {	
+		System.out.println("The name of the testcase started is :" + result.getName());
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-		
+		System.out.println("The name of the testcase passed is :"+result.getName());
 	}
 
-	
 	public void onTestFailure(ITestResult result) {
+		System.out.println("The name of the testcase failed is :"+result.getName());
 		String s=result.getName();
 		try {
 			BrowserSetup.getScreenshot(s);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-		
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("The name of the testcase Skipped is :"+result.getName());
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Test Failed but within success percentage: " +result.getName());
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This is onStart method: " +context.getOutputDirectory());
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This is onFinish method: " +context.getPassedTests());
+		System.out.println("This is onFinish method: " +context.getFailedTests());
 	}
-	
-	
-
 }

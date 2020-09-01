@@ -25,7 +25,6 @@ public class BrowserSetup {
 			System.setProperty("webdriver.firefox.marionette",path+"\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
-
 		// If the browser is Chrome
 		else if (browsername.equalsIgnoreCase("Chrome")) {
 			// Set the path for chromedriver.exe
@@ -59,17 +58,15 @@ public class BrowserSetup {
 	{
 	File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	try {
-	FileUtils.copyFile(srcFile, new File("/CucumberSelenium/Screenshots"
-	+ "ScreenshotsTaken/tests.jpg"));
+	FileUtils.copyFile(srcFile, new File("/CucumberSelenium/Screenshots" + "ScreenshotsTaken/tests.jpg"));
 	} catch (IOException e) {
 	e.printStackTrace();
 	}
 	}
-	 
-	
-
 
 public static void getScreenshot(String s) throws IOException {
+	//Date d = new Date();
+	//String FileName = d.toString().replace(":", "_").replace(" ", "_") + ".png";
 	File scrfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	try {
 		FileUtils.copyFile(scrfile, new File(System.getProperty("user.dir") + "//Screenshots//" + s + ".png"));

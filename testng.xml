@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <listeners>
-<listener class-name="resources.Listeners"/>
-<listener class-name="resources.ExtentReporterNG"/>
-</listeners>
 
-  <test name="Test">
+  <test name="Regression Test">
     <classes>
-      <class name="TestCasesExecution.LoginPageTest"/>
+      <class name="TestCasesExecution.LoginPageFunctionality"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

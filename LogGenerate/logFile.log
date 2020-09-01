@@ -1,4 +1,5 @@
-27-08-2020 12:16:54 INFO [LoginPageTest]: username entered
-27-08-2020 12:16:54 INFO [LoginPageTest]: password entered
-27-08-2020 12:16:55 INFO [LoginPageTest]: login button clicked
-27-08-2020 12:16:55 INFO [LoginPageTest]: Alert clicked
+01-09-2020 15:19:10 INFO [LoginPageFunctionality]: login button clicked
+01-09-2020 15:19:10 INFO [LoginPageFunctionality]: Alert clicked
+01-09-2020 15:19:12 INFO [LoginPageFunctionality]: username entered
+01-09-2020 15:19:12 INFO [LoginPageFunctionality]: password entered
+01-09-2020 15:19:14 INFO [LoginPageFunctionality]: login button clicked

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="true">
+<suite name="Failed suite [Suite]">
+  <test name="Regression Test(failed)" preserve-order="true">
     <classes>
-      <class name="TestCasesExecution.LoginPageTest">
+      <class name="TestCasesExecution.LoginPageFunctionality">
         <methods>
-          <include name="setupSuite"/>
-          <include name="LoginTestCase" invocation-numbers="1 2 3"/>
+          <include name="LoginPageTwo" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="HomePageNavigation"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- TestCasesExecution.LoginPageTest -->
+      </class> <!-- TestCasesExecution.LoginPageFunctionality -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

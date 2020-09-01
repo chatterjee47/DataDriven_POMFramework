@@ -12,7 +12,7 @@ public class getExcelData extends ReadExcelSheet {
     public static Object[][] LoginData;
     public static XSSFRow Row;
     public static XSSFCell cell;
-    public static String FilePath = System.getProperty("user.dir") + "\\data\\input.xlsx";
+    public static String FilePath = System.getProperty("user.dir") + "\\data\\Parameters.xlsx";
     public static String SheetName = "Credentials";
     public static XSSFSheet Sheet;
 
@@ -20,11 +20,8 @@ public class getExcelData extends ReadExcelSheet {
     public static Object[][] getLoginData() throws Exception{
 
         Sheet = DataSheet(FilePath, SheetName);
-     	System.out.println("First Row Number/index:"+ Sheet.getFirstRowNum() + " *** Last Row Number/index:" + Sheet.getLastRowNum());
         int rowCount = Sheet.getLastRowNum();
-        System.out.println( "Total Number Of Rows :  " + rowCount);
         int colCount = Sheet.getRow(0).getLastCellNum();
-        System.out.println( "Total Number Of Cols :  " + colCount);
     
         LoginData = new Object[rowCount][colCount];
         for (int rCnt=1; rCnt<=rowCount;rCnt++){
@@ -67,12 +64,11 @@ public class getExcelData extends ReadExcelSheet {
 
             default:
             return "Cell not found";        
-
             }
-        }
-            catch (Exception e) {
+        }catch (Exception e) 
+        {
             e.printStackTrace();
-            return "row " + row + " or column " + col+ " does not exist in xlsx";
+            return "row " + row + " or column " + col+ " Does not exist in xlsx";
             }
 
     }

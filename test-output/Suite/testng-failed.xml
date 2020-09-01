@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Regression Test(failed)" preserve-order="true">
+    <classes>
+      <class name="TestCasesExecution.LoginPageFunctionality">
+        <methods>
+          <include name="LoginPageTwo" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="HomePageNavigation"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCasesExecution.LoginPageFunctionality -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
